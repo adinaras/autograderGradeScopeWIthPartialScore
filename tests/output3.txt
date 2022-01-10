@@ -1,0 +1,5 @@
+Input numbers: 
+4 2 5 6 9 
+Sum: 26
+Product: 2160
+Mean: 5.2

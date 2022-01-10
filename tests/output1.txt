@@ -1,0 +1,5 @@
+Input numbers: 
+60 40 30 20 50 
+Sum: 200
+Product: 72000000
+Mean: 40
