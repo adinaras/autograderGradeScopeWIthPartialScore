@@ -31,7 +31,7 @@
     - run diff_files calls the diff_files() function with the two parameters (student's output and the expected output)
     - If the outputs do not match: 
         - the for loop prints the comparison with the mismatched lines
-        - the variable score calculates the partial credit for the test case
+        - the variable score calculates the partial credit for the test case (scalled to have 3 decimals)
         - the \x1F is a unique character that gets parsed by the autograder.py file
  - testclean: makes sure the exe gets cleaned properly
 6. weights.txt: This file holds the breakdown of points for each test case
@@ -61,8 +61,8 @@ You can debug each student's submission by using the debug via ssh button in eac
 ## Acknowlegments: 
 - Aditya Narasimhan
 - Gregory Madra
-- Sanjana Mudduluru
 - Sudhindra Gopal Krishna
+- Sanjana Mudduluru
 - Monique Shotande
 
 ## Reference:
