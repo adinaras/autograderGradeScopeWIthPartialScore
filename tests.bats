@@ -34,7 +34,7 @@ diff_files()
 		do
 			echo $line
 		done
-		score=$(bc -l <<<"(($numLines - $status) / $numLines) * $testCasePoints") 
+		score=$(bc -l <<<"scale=3;(($numLines - $status) / $numLines) * $testCasePoints") 
 		echo -e "\x1F$score"
 	fi
 
@@ -51,7 +51,7 @@ diff_files()
 		do
 			echo $line
 		done
-		score=$(bc -l <<< "(($numLines - $status) / $numLines) * $testCasePoints") 
+		score=$(bc -l <<< "scale=3;(($numLines - $status) / $numLines) * $testCasePoints") 
 		echo -e "\x1F$score"
 	fi
 
@@ -68,7 +68,7 @@ diff_files()
 		do
 			echo $line
 		done
-		score=$(bc -l <<< "(($numLines - $status) / $numLines) * $testCasePoints") 
+		score=$(bc -l <<< "scale=3;(($numLines - $status) / $numLines) * $testCasePoints") 
 		echo -e "\x1F$score"
 	fi
 
